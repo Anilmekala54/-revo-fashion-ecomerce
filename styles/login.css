@@ -1,0 +1,138 @@
+
+
+
+
+.form-container {
+   
+    padding: 20px;
+    border-radius: 8px;
+background: #eae8eb;
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    opacity: 0.9;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Input Fields */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: none;
+}
+
+/* Button */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #383a3b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background: #141414;
+}
+
+/* Footer Text */
+.form-container p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form-container p a {
+    color: #007bff;
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding:0px;
+}
+.head-section{
+  background: #c2efd4;
+  padding: 0% 7%;
+
+
+}
+.web-name{
+     font-family: Elephant;
+}
+.button-elements {
+    display: flex; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+   
+  }
+  
+  .button-elements li {
+    margin: 0 10px; 
+  }
+  
+  .button-elements a {
+    text-decoration: none; 
+    color: black; 
+  }
+  .fashion-cart-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px; 
+  }
+  
+  .fashion-bag {
+    width: 30px; 
+    height: auto;
+  }
+  .discover-matter{
+    margin-top: 5%;
+  }
+  .login-btn {
+    padding: 3px 20px; 
+    
+  }
+  .toggle-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+
+  }
+  .login-btn{
+    background: none;
+}
+.form-container{
+
+  max-width: 98%;
+  margin: auto;
+
+  
+}
+.log-container {
+  background-image:url("../assets/fashion-bg.png");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; 
+  padding-top: 5%;
+}
+.cart-item-count{
+  position: relative;
+  bottom: -11px;
+  right: 10px;
+ 
+  color: rgb(246, 114, 114);
+}
