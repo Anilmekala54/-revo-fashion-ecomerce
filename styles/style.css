@@ -1,496 +1,680 @@
 body{
-    margin: 0;
-    padding:0px;
+  margin: 0;
+  padding:0px;
 }
 .head-section{
-  background: #c2efd4;
-  padding: 0% 7%;
-
-
+background: #c2efd4;
+padding: 0% 7%;
 }
 .web-name{
-     font-family: Elephant;
+   font-family: Elephant;
 }
 .button-elements {
-    display: flex; 
-    justify-content: space-between; 
-    list-style: none;
-    padding: 0; 
-    margin: 0;
-   
-  }
-  
-  .button-elements li {
-    margin: 0 10px; 
-  }
-  
-  .button-elements a {
-    text-decoration: none; 
-    color: black; 
-  }
-  .fashion-cart-container {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-    gap: 10px; 
-  }
-  
-  .fashion-bag {
-    width: 30px; 
-    height: auto;
-  }
-  .discover-matter{
-    margin-top: 5%;
-  }
-  .login-btn {
-    padding: 3px 20px; 
-    
-  }
-  .cart-item-count{
-    position: relative;
-    bottom: -11px;
-    right: 10px;
-   
-    color: rgb(246, 114, 114);
-  }
-  .discover-container-text{
-    font-family: Rufina;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 1.2;
-  }
-  .toggle-menu-btn {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
+  display: flex; 
+  justify-content: space-between; 
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
 
-  }
-  .discover-section{
-    display: flex;
-    margin-top: 5%;
-    gap: 10%;
-   
-   
-  }
+.button-elements li {
+  margin: 0 10px; 
+}
+
+.button-elements a {
+  text-decoration: none; 
+  color: black; 
+}
+.fashion-cart-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  gap: 10px; 
+}
+
+.fashion-bag {
+  width: 30px; 
+  height: auto;
+}
+.discover-matter{
+  margin-top: 5%;
+}
+.login-btn {
+  padding: 3px 20px; 
+}
+.cart-item-count{
+  position: relative;
+  bottom: -11px;
+  right: 10px;
+  color: rgb(246, 114, 114);
+}
+.discover-container-text{
+  font-family: Rufina;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1.2;
+}
+.toggle-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.discover-section{
+  display: flex;
+  margin-top: 5%;
+  gap: 10%;
+}
 .discover-img-section{
-    background: #6ba56d;
-    border-radius: 200px 50px 150px 20px;
-   
+  background: #6ba56d;
+  border-radius: 200px 50px 150px 20px;
 }
 .fashion-model{
-   width:100%;
-   height: 45%;
- 
-  
+ width:100%;
+ height: 45%;
 }
 .offerClose{
-  text-transform: uppercase;
-  color: #224f34;
+text-transform: uppercase;
+color: #224f34;
 }
 .green-dots{
-    position: relative;
-    left: 65%;
-    top: 200px;
-    width: 15%;
-    height: auto;
+  position: relative;
+  left: 65%;
+  top: 200px;
+  width: 15%;
+  height: auto;
 }
 .green-dots1{
-    position: relative;
-    left: 20%;
-    width: 15%;
-    height: auto;
-   bottom: 150px;
-
+  position: relative;
+  left: 20%;
+  width: 15%;
+  height: auto;
+ bottom: 150px;
 }
 .login-btn{
-    background: none;
+  background: none;
 }
 
 .explore-button{
-    background: black;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    box-shadow: 5px 5px 25px black;
-    margin-top: 5%;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 5px 5px 25px black;
+  margin-top: 5%;
 }
 .bset-selling-container{
-  text-align: center;
-
+text-align: center;
 }
 .bset-selling-text{
-  font-weight: 500;
-    font-size: 64px;
-    font-family: Roboto Slab;
-    color: #224f34;
+font-weight: 500;
+  font-size: 64px;
+  font-family: Roboto Slab;
+  color: #224f34;
 }
 .bset-selling-matter{
-  color: #224f34;
-  
+color: #224f34;
 }
 .beset-selling-section{
-  font-family: Roboto Slab;
+font-family: Roboto Slab;
 }
 .product-section {
-  display: flex; 
-  gap: 20px; 
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap; 
-  padding: 20px; 
-  font-family:Poppins;
+display: flex; 
+gap: 20px; 
+justify-content: center;
+align-items: flex-start;
+flex-wrap: wrap; 
+padding: 20px; 
+font-family:Poppins;
 }
 
-
 .regular-fit-img {
-  width: 100%; 
-  height: auto; 
-  margin-bottom: 10px;
-  background: #93c8a8;
+width: 100%; 
+height: auto; 
+margin-bottom: 10px;
+background: #93c8a8;
 }
 
 .text-center {
-  margin-top: 10px; 
+margin-top: 10px; 
 }
 
 .see-more-button {
-
- border: #224f34 1px solid;
-  padding: 5px 40px; 
-  font-size: 16px; 
-  cursor: pointer; 
-  gap: 8px; 
- 
+border: #224f34 1px solid;
+padding: 5px 40px; 
+font-size: 16px; 
+cursor: pointer; 
+gap: 8px; 
 }
 .our-products-text{
-  font-family: Roboto Slab;
-  font-weight: 500;
-  font-size: 50px;
-  text-align: center;
-  color: #224f34;
-  margin-top: 5%;
+font-family: Roboto Slab;
+font-weight: 500;
+font-size: 50px;
+text-align: center;
+color: #224f34;
+margin-top: 5%;
 }
 .our-product-elements{
-  display: flex; 
-   
-    list-style: none;
-    padding: 0; 
-    margin: 0;
-  justify-content: center;
-  gap: 50px;
-  color: black;
+display: flex; 
+list-style: none;
+padding: 0; 
+margin: 0;
+justify-content: center;
+gap: 50px;
+color: black;
 }
 .our-product-elements a {
-  color: rgb(21 21 22);
-  text-decoration: none;
+color: rgb(21 21 22);
+text-decoration: none;
 }
 .our-product-imges-section{
-  display: flex;
-  justify-content: space-between;
-  gap: 2%;
-  margin-top:5%;
+display: flex;
+justify-content: space-between;
+gap: 2%;
+margin-top:5%;
 }
 .our-product-img{
-  background: #e6e7ef;
-  width: 100%;
-  height: 70%;
-  gap: 10px;
+background: #e6e7ef;
+width: 100%;
+height: 70%;
+gap: 10px;
 }
 .exclusive-offer-img {
-  display: flex;
-  position: relative;
-  max-width: 98%;
-  margin: auto;
- 
+display: flex;
+position: relative;
+max-width: 98%;
+margin: auto;
 }
 .green-dots-offers{
-  top: 77%;
-  position:absolute;
+top: 77%;
+position:absolute;
 }
 .exclusive-offer-img1{
-  margin-left: 10%;
+margin-left: 10%;
 }
 .exclusive-offer-text{
-  font-family: 
-  Roboto Slab;
-  font-weight: 
-  700;
-  font-size: 48px;
-  color:  #224f34;
+font-family: Roboto Slab;
+font-weight: 700;
+font-size: 48px;
+color: #224f34;
 }
 .offer-time{
-  display: flex;
+display: flex;
 }
 .buy-now-button{
-  background:  #224f34;
-    color: white;
-    padding: 10px 40px;
-    border: none;
-    margin-top: 7%;
-   
-   
-    
+background: #224f34;
+color: white;
+padding: 10px 40px;
+border: none;
+margin-top: 7%;
 }
 .buy-now-button:hover{
-  background:  #224f34;
-  color: white;
-  padding: 10px 40px;
-  border: none;
-  margin-top: 7%;
-  display: none;
+background: #224f34;
+color: white;
+padding: 10px 40px;
+border: none;
+margin-top: 7%;
+display: none;
 }
 .exclusive-offer-section{
-  display: flex;
-      gap: 10%;
-      background: #c2efdc;
-      margin-top: 10%;
-      padding: 0% 5% ;
- 
+display: flex;
+gap: 10%;
+background: #c2efdc;
+margin-top: 10%;
+padding: 0% 5%;
 }
 .exclusive-offer-content{
-  
-font-family:Poppins;
+font-family: Poppins;
 font-weight: 500;
-
-
-font-size:20px ;
-
+font-size: 20px;
 }
 .exclusive-offer-matter{
-  margin-top: 8%;
+margin-top: 8%;
 }
 .offer-timer{
-  background: white;
-  padding: 5px 20px;
-  line-height: 0.5;
-  color: #356448;
+background: white;
+padding: 5px 20px;
+line-height: 0.5;
+color: #356448;
 }
 .offer-time{
-  display: flex;
- gap: 5%;
- margin-top: 7%;
+display: flex;
+gap: 5%;
+margin-top: 7%;
 }
 .designer-clothes-headding{
-  text-align: center;
-  color: #224F34 ;
-  font-family:Poppins;
+text-align: center;
+color: #224F34;
+font-family: Poppins;
 font-weight: 500;
-font-size:50px ;
+font-size: 50px;
 }
 .designer-clothes-matter{
-  text-align: center;
-  color: #356448 ;
-  font-family:
-  Poppins;
-  font-weight: 500;
-font-size:20px ;
+text-align: center;
+color: #356448;
+font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
 }
 .designer-clothes-img{
-  display: flex;
-  gap: 1%;
+display: flex;
+gap: 1%;
 }
 .accessories{
-  background: #e8e8ea;
-  width: 100%;
-  height: 81%;
+background: #e8e8ea;
+width: 100%;
+height: 81%;
 }
 .img-matter{
-  text-align: center;
+text-align: center;
 }
 .designer-clothes-section{
-  margin-top: 10%;
+margin-top: 10%;
 }
 .emily-text{
-  font-family: Roboto serif;
-  font-size: 22px;
-  font-weight: 600;
-  margin-top: 10%;
-  color: #224f34;
+font-family: Roboto serif;
+font-size: 22px;
+font-weight: 600;
+margin-top: 10%;
+color: #224f34;
 }
 .feedback-corner-container{
-  display: flex;
-      padding: 15px;
-      gap: 3%;
-  
+display: flex;
+padding: 15px;
+gap: 3%;
 }
 .feedback-box{
-  background: rgb(251, 251, 251);
-  
-  padding: 10px;
-  width: 30%;
-
+background: rgb(251, 251, 251);
+padding: 10px;
+width: 30%;
 }
 .feedback-box1{
-  background:#C2EFD4;
-  
-  padding: 10px;
-  width: 30%;
+background: #C2EFD4;
+padding: 10px;
+width: 30%;
 }
 .carousel2{
-  width: 1%;
- 
+width: 1%;
 }
 #additional-products {
-  display: none; 
+display: none; 
 }
-
-
-
-
 
 .buy{
-  position: relative;
-  bottom: 125px;
-  background: #042f0f;
-  border: none;
-  color: white;
-  width: 100%;
-  height: 50px;
- 
-
+position: relative;
+bottom: 125px;
+background: #042f0f;
+border: none;
+color: white;
+width: 100%;
+height: 50px;
 }
-
 
 .shop-container a{
- text-decoration: none;
- color: white;
-
+text-decoration: none;
+color: white;
 }
 .fashion-footer-section{
-  background: #224F34;
-  margin-top: 5%;
+background: #224F34;
+margin-top: 5%;
 }
 .fashion-footer-container{
-  display: flex;
-  justify-content: space-around;
-  padding: 3% 0%;
+display: flex;
+justify-content: space-around;
+padding: 3% 0%;
 }
 .footer-web-name{
-  color: white;
-  font-size: 40px;
-  font-family: 700;
-  font-family: Elephant;
+color: white;
+font-size: 40px;
+font-weight: 700;
+font-family: Elephant;
 }
 .Social-media-text{
-  color: white;
+color: white;
 }
 .products{
-  color: #90b091;
+color: #90b091;
 }
 .email{
-  background: none;
-  border: white 1px solid;
-  padding: 5px 25px;
+background: none;
+border: white 1px solid;
+padding: 5px 25px;
 }
 .email-sub{
-  background:#A3F3BE;
-  color: #356448;
-  padding: 6px 20px;
-  border: none;
-  position: relative;
-    right: 5px;
+background: #A3F3BE;
+color: #356448;
+padding: 6px 20px;
+border: none;
+position: relative;
+right: 5px;
 }
 .terms{
-  display: flex;
-  
-  color: white;
-  margin-left: 10px;
-  position: relative;
-  bottom: 10px;
-  gap: 10%;
+display: flex;
+color: white;
+margin-left: 10px;
+position: relative;
+bottom: 10px;
+gap: 10%;
 }
 .Social-container-elements{
-  display: flex;
-  gap: 30px;
+display: flex;
+gap: 30px;
 }
 .fashion-cart-container a{
-  text-decoration: none;
-  color: black;
+text-decoration: none;
+color: black;
+}
+
+/* Responsive styles */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+.discover-container-text {
+  font-size: 60px;
+}
+
+.designer-clothes-img {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.designer-clothes-img > div {
+  width: 48%;
+  margin-bottom: 20px;
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+.discover-section {
+  flex-direction: column;
+}
+
+.discover-img-section {
+  margin-top: 30px;
+}
+
+.exclusive-offer-section {
+  flex-direction: column;
+}
+
+.exclusive-offer-img1 {
+  margin-left: 0;
+  width: 100%;
+}
+
+.green-dots-offers {
+  top: 50%;
+  width: 10%;
+}
+
+.fashion-footer-container {
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.fashion-footer-container > div {
+  width: 45%;
+}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+.navbar {
+  position: relative;
+}
+
+.toggle-menu-btn {
+  display: block;
+}
+
+.home-btn {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #c2efd4;
+  z-index: 100;
+  padding: 10px;
+}
+
+.home-btn.active {
+  display: block;
+}
+
+.button-elements {
+  flex-direction: column;
+  text-align: center;
+}
+
+.button-elements li {
+  margin: 10px 0;
+}
+
+.discover-container-text {
+  font-size: 40px;
+}
+
+.bset-selling-text, .our-products-text, .designer-clothes-headding, .exclusive-offer-text {
+  font-size: 36px;
+}
+
+.our-product-elements {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.our-product-imges-section {
+  flex-wrap: wrap;
+}
+
+.our-product-imges-section > div {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.designer-clothes-img > div {
+  width: 100%;
+}
+
+.feedback-corner-container {
+  flex-direction: column;
+}
+
+.feedback-box, .feedback-box1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.fashion-footer-container > div {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Social-container-elements {
+  justify-content: center;
+}
+
+.terms {
+  justify-content: center;
+  margin-left: 0;
+}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+.head-section {
+  padding: 0 5%;
+}
+
+.fashion-cart-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.discover-container-text {
+  font-size: 32px;
+}
+
+.discover-matter {
+  font-size: 16px;
+}
+
+.product-section > div {
+  width: 100%;
+}
+
+.our-product-imges-section > div {
+  width: 100%;
+}
+
+.green-dots, .green-dots1 {
+  display: none;
+}
+
+.offer-time {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.offer-timer {
+  margin-bottom: 10px;
+}
+
+.buy {
+  bottom: 0;
+  position: static;
+  margin-top: 10px;
+}
+
+.email, .email-sub {
+  margin: auto;
+  max-width:98% ;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.email-sub {
+  right: 0;
+}
+.terms{
+ display: none;
+}
+}
+
+/* Fix for Buy Now buttons and better product display */
+@media (max-width: 992px) {
+.buy {
+  position: static;
+  margin-top: 10px;
+  height: auto;
+  padding: 10px;
+}
+
+.product-section > div, 
+.our-product-imges-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exclusive-offer-content {
+  font-size: 16px;
+}
+}
+
+/* Fix navigation */
+@media (max-width: 768px) {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
 }
 
 
+.web-name-container {
+  flex: 1;
+}
+}
 
+/* Ensure images are responsive */
+img {
+max-width: 100%;
+height: auto;
+}
+.toggle-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
   .toggle-menu-btn {
-    display: block; 
+      display: block;
   }
-
+  
   .home-btn {
-    display: none; 
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #c2efd4;
+      z-index: 100;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
-
+  
   .home-btn.active {
-    display: block; 
+      display: block;
+      animation: slideDown 0.3s ease-in-out;
   }
-
+  
   .button-elements {
-    flex-direction: column; 
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+      flex-direction: column;
+      text-align: center;
   }
-
+  
   .button-elements li {
-    margin: 10px 0;
+      margin: 10px 0;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .button-elements li:last-child {
+      border-bottom: none;
+  }
+  
+  @keyframes slideDown {
+      from {
+          opacity: 0;
+          transform: translateY(-10px);
+      }
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+}
+
+/* Fix header layout on mobile */
+@media (max-width: 768px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      position: relative;
+  }
+  
+  .web-name-container {
+      flex: 1;
   }
 }

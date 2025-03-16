@@ -80,11 +80,8 @@
     overflow: hidden;
     gap: 4%;
 }
-.image-details{
-    display: flex;
-    gap: 2%;
-    padding:10px 50px;
-}
+
+
 .main-image{
     width: 100%;
     height: 466px;
@@ -95,9 +92,7 @@
 .choose-size{
     width: 55%;
 }
-.image-matter{
-width: 50%;
-}
+
 .add-cart{
     background: rgb(3, 24, 8);
     width: 56%;
@@ -127,7 +122,10 @@ width: 50%;
   display: flex;
   gap: 2%;
   margin-top: 2%;
-  padding: 0px 50px
+  padding: 0px 50px;
+  flex-wrap: wrap;
+  max-width: 98%;
+  margin: auto;
  
    
 }
@@ -153,6 +151,9 @@ width: 50%;
     display: flex;
    gap: 2%;
   
+}
+.blue-top{
+  width: 100%;
 }
 .you-also-like-card{
     position: relative;
@@ -205,15 +206,16 @@ width: 50%;
     position: relative;
       right: 5px;
   }
-  .terms{
-    display: flex;
-    
-    color: white;
-    margin-left: 10px;
-    position: relative;
-    bottom: 10px;
-    gap: 10%;
-  }
+ 
+    .terms{
+      display: flex;
+      color: white;
+      margin-left: 10px;
+      position: relative;
+      bottom: 10px;
+      gap: 10%;
+      }
+  
   .Social-container-elements{
     display: flex;
     gap: 30px;
@@ -227,3 +229,282 @@ width: 50%;
     color: white;
    
    }
+   .image-details {
+    display: flex;
+    gap: 10px;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+   
+}
+
+.main-image1 {
+    width: 100%;
+    max-width: 600px;
+}
+
+.image-matter {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Improve filter section responsiveness */
+.filter-section {
+    display: flex;
+    gap: 2%;
+    margin-top: 2%;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fitting-container, .matarial-section {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Improve "You may also like" section */
+.you-also-like-cards {
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.you-also-like-card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Improve add to cart button */
+.add-cart {
+    background: rgb(3, 24, 8);
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    height: auto;
+    padding: 10px;
+    color: white;
+    margin-top: 5%;
+}
+
+/* Improve dropdown */
+.choose-size {
+    width: 100%;
+    max-width: 300px;
+    padding: 8px;
+}
+
+/* Footer improvements */
+.fashion-footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 0%;
+    flex-wrap: wrap;
+}
+
+.fashion-footer-container > div {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.email {
+    background: none;
+    border: white 1px solid;
+    padding: 5px 25px;
+    width: 100%;
+    max-width: 220px;
+    box-sizing: border-box;
+}
+@media (min-width: 1440px) {
+  .image-details{
+    flex-wrap: nowrap;
+  }
+
+}
+/* Product section padding adjustments for smaller screens */
+@media (max-width: 768px) {
+    .product-section {
+        padding: 20px;
+    }
+  .terms{
+   flex-direction: column;
+   display: none;
+  }
+  .image-details{
+    justify-content: center;
+  }
+  .you-may-like-text{
+    text-align: center;
+  }
+  .fashion-footer-container{
+    justify-content: center;
+  }
+  .image-details-container{
+display: none;
+  }
+  .headding-elements{
+    padding: 0px;
+  }
+    
+     .image-details, .filter-section, .you-also-like-section {
+        padding: 10px;
+    }
+    
+    .main-image {
+        height: auto;
+    }
+    
+    .delivered-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .quick-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .quick {
+        padding: 8px 15px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Toggle Menu Styles */
+.toggle-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .toggle-menu-btn {
+      display: block;
+  }
+  
+  .home-btn {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #c2efd4;
+      z-index: 100;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .home-btn.active {
+      display: block;
+      animation: slideDown 0.3s ease-in-out;
+  }
+  
+  .button-elements {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .button-elements li {
+      margin: 10px 0;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .button-elements li:last-child {
+      border-bottom: none;
+  }
+  
+  @keyframes slideDown {
+      from {
+          opacity: 0;
+          transform: translateY(-10px);
+      }
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
+}
+
+/* Fix header layout on mobile */
+@media (max-width: 768px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      position: relative;
+  }
+  
+  .web-name-container {
+      flex: 1;
+  }
+}
+@media (max-width: 480px) {
+    .head-section {
+        padding: 0 2%;
+    }
+    
+    .web-name {
+        font-size: 20px;
+    }
+    
+    .login-btn {
+        padding: 3px 10px;
+        font-size: 14px;
+    }
+    
+    .fashion-bag {
+        width: 20px;
+    }
+    
+    .title-text {
+        font-size: 20px;
+    }
+    
+    .you-may-like-text {
+        text-align: center;
+    }
+    
+    .fitting h5, .fabric-text {
+        font-size: 16px;
+    }
+    
+    .Social-container-elements {
+        justify-content: center;
+    }
+}
+
+/* Fix email subscription form on mobile */
+@media (max-width: 576px) {
+  .fashion-footer-section{
+    text-align: center;
+  }
+  .image-details-container{
+    display: none;
+  }
+    .email, .email-sub {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+        position: static;
+    }
+    
+    .terms {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .f-line {
+        width: 100%;
+    }
+}

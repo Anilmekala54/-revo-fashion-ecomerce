@@ -115,3 +115,30 @@ function updateCartItemCount() {
     const cartItemCountElement = document.querySelector(".cart-item-count");
     cartItemCountElement.innerText = cartItems.reduce((acc, item) => acc + item.quantity, 0);
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get the toggle button and navigation menu
+    const toggleMenuBtn = document.querySelector('.toggle-menu-btn');
+    const homeBtn = document.querySelector('.home-btn');
+    
+    // Toggle menu visibility when the button is clicked
+    toggleMenuBtn.addEventListener('click', function() {
+        homeBtn.classList.toggle('active');
+    });
+    
+    // Close menu when clicking outside of it
+    document.addEventListener('click', function(event) {
+        if (!homeBtn.contains(event.target) && !toggleMenuBtn.contains(event.target)) {
+            homeBtn.classList.remove('active');
+        }
+    });
+    
+    // Close menu when window is resized to desktop width
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            homeBtn.classList.remove('active');
+        }
+    });
+});
+
+
